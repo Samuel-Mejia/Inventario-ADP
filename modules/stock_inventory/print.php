@@ -32,6 +32,33 @@ $html = '
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
         <title>INFORME DE STOCK DE PRODDUCTOS</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+            #title {
+                text-align: center;
+                font-size: 24px;
+                font-weight: bold;
+            }
+            hr {
+                border: 1px solid black;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 10px;
+            }
+            th, td {
+                border: 0.3px solid black;
+                padding: 5px;
+                text-align: center;
+                font-size: 12px;
+            }
+            th {
+                background-color: #e8ecee;
+            }
+        </style>
         <link rel="stylesheet" type="text/css" href="../../assets/css/laporan.css" />
     </head>
     <body>

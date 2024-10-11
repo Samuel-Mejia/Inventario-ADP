@@ -3,7 +3,9 @@
 <section class="content-header">
   <h1>
     <i class="fa fa-file-text-o icon-title"></i> Stock de Productos
-
+    <a class="btn btn-primary btn-social pull-right" href="modules/stock_inventory/print.php" target="_blank">
+      <i class="fa fa-print"></i> Imprimir
+    </a>
   </h1>
 
 </section>
