@@ -1,9 +1,9 @@
 /*
- * Skin: Blue
+ * Skin: Gray
  * ----------
  */
 .skin-blue .main-header .navbar {
-  background-color: #3c8dbc;
+  background-color: #343a40;
 }
 .skin-blue .main-header .navbar .nav > li > a {
   color: #ffffff;
@@ -31,7 +31,7 @@
   color: #fff;
 }
 .skin-blue .main-header .navbar .sidebar-toggle:hover {
-  background-color: #367fa9;
+  background-color: #343a40;
 }
 @media (max-width: 767px) {
   .skin-blue .main-header .navbar .dropdown-menu li.divider {
@@ -41,11 +41,11 @@
     color: #fff;
   }
   .skin-blue .main-header .navbar .dropdown-menu li a:hover {
-    background: #367fa9;
+    background: #343a40;
   }
 }
 .skin-blue .main-header .logo {
-  background-color: #367fa9;
+  background-color: #343a40;
   color: #ffffff;
   border-bottom: 0px solid transparent;
 }
@@ -53,10 +53,10 @@
   color: #ffffff;
 }
 .skin-blue .main-header .logo:hover {
-  background: #357ca5;
+  background: #343a40;
 }
 .skin-blue .main-header li.user-header {
-  background-color: #3c8dbc;
+  background-color: #343a40;
 }
 .skin-blue .content-header {
   background: transparent;
@@ -67,7 +67,7 @@
 }
 .skin-blue .sidebar-menu > li.header {
   color: #4b646f;
-  background: #1a2226;
+  background: #343a40;
 }
 .skin-blue .sidebar-menu > li > a {
   border-left: 3px solid transparent;
@@ -76,8 +76,8 @@
 .skin-blue .sidebar-menu > li > a:hover,
 .skin-blue .sidebar-menu > li.active > a {
   color: #ffffff;
-  background: #1e282c;
-  border-left-color: #3c8dbc;
+  background: #343a40;
+  border-left-color: #343a40;
 }
 .skin-blue .sidebar-menu > li > .treeview-menu {
   margin: 0 1px;
@@ -86,7 +86,7 @@
 .skin-blue .wrapper,
 .skin-blue .main-sidebar,
 .skin-blue .left-side {
-  background: #222d32;
+  background: #343a40;
 }
 .skin-blue .sidebar a {
   color: #b8c7ce;
@@ -139,7 +139,7 @@
   border-bottom-left-radius: 0 !important;
 }
 .skin-blue.layout-top-nav .main-header > .logo {
-  background-color: #3c8dbc;
+  background-color: #343a40;
   color: #ffffff;
   border-bottom: 0px solid transparent;
 }
@@ -147,5 +147,5 @@
   color: #ffffff;
 }
 .skin-blue.layout-top-nav .main-header > .logo:hover {
-  background: #3b8ab8;
+  background: #343a40;
 }

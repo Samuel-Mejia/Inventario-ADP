@@ -10,7 +10,7 @@
     <meta name="author" content="Indra Styawantoro" />
 
     <!-- favicon -->
-    <link rel="shortcut icon" href="assets/img/favicon.png" />
+    <link rel="shortcut icon" href="assets/img/sandie.png" />
 
     <!-- Bootstrap 3.3.2 -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -26,8 +26,8 @@
   </head>
   <body class="login-page bg-login">
     <div class="login-box">
-      <div style="color:#3c8dbc" class="login-logo">
-        <img style="margin-top:-12px" src="assets/img/logo-blue.png" alt="Logo" height="50"> <b>MEDISYS</b>
+      <div style="color:#f0b446" class="login-logo">
+        <img style="margin-top:-12px" src="assets/img/sandie.png" alt="Logo" height="50"> <b>Libreria Sandie</b>
       </div><!-- /.login-logo -->
       <?php  
  
@@ -53,7 +53,7 @@
       ?>
 
       <div class="login-box-body">
-        <p class="login-box-msg"><i class="fa fa-user icon-title"></i> Por favor Inicie Sesión</p>
+        <p class="login-box-msg"><i class="fa fa-user icon-title"></i>Iniciar Sesión</p>
         <br/>
         <form action="login-check.php" method="POST">
           <div class="form-group has-feedback">
