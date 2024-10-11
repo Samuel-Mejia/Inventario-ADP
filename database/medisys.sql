@@ -31,7 +31,7 @@ CREATE TABLE `medicamentos` (
   `nombre` varchar(50) NOT NULL,
   `precio_compra` int(11) NOT NULL,
   `precio_venta` int(11) NOT NULL,
-  `unidad` varchar(20) NOT NULL,
+  `unidad` varchar(20),
   `stock` int(11) NOT NULL,
   `created_user` int(3) NOT NULL,
   `created_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,

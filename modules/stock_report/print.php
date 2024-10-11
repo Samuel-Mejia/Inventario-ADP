@@ -34,12 +34,12 @@ if (isset($_GET['tgl_awal'])) {
 <html xmlns="http://www.w3.org/1999/xhtml"> 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>REPORTE DE MEDICAMENTOS</title>
+        <title>REPORTE DE PRODUCTOS</title>
         <link rel="stylesheet" type="text/css" href="../../assets/css/laporan.css" />
     </head>
     <body>
         <div id="title">
-           DATOS DE REGISTROS DE MEDICAMENTOS
+           DATOS DE REGISTROS DE PRODUCTOS
         </div>
     <?php  
     if ($tgl_awal==$tgl_akhir) { ?>
@@ -63,8 +63,8 @@ if (isset($_GET['tgl_awal'])) {
                         <th height="20" align="center" valign="middle"><small>NO.</small></th>
                         <th height="20" align="center" valign="middle"><small>TRANSACCION No </small></th>
                         <th height="20" align="center" valign="middle"><small>FECHA</small></th>
-                        <th height="20" align="center" valign="middle"><small>CÓDIGO </small></th>
-                        <th height="20" align="center" valign="middle"><small>NOMBRE DE MEDICAMENTO</small></th>
+                        <th height="20" align="center" valign="middle"><small>Cï¿½DIGO </small></th>
+                        <th height="20" align="center" valign="middle"><small>NOMBRE DEL PRODUCTO </small></th>
                         <th height="20" align="center" valign="middle"><small>TIPO </small></th>
 						<th height="20" align="center" valign="middle"><small>CANT. </small></th>
                         <th height="20" align="center" valign="middle"><small>UNIDAD</small></th>
@@ -114,7 +114,7 @@ if (isset($_GET['tgl_awal'])) {
     </body>
 </html>
 <?php
-$filename="datos de registro de medicamentos.pdf"; 
+$filename="datos de registro de Productos.pdf"; 
 $content = ob_get_clean();
 $content = '<page style="font-family: freeserif">'.($content).'</page>';
 
