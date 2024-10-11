@@ -15,7 +15,7 @@
         <div class="alert alert-info alert-dismissable">
           <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
           <p style="font-size:15px">
-            <i class="icon fa fa-user"></i> Bienvenido <strong><?php echo $_SESSION['name_user']; ?></strong> a la aplicación de inventario de medicamentos.
+            <i class="icon fa fa-user"></i> Bienvenido <strong><?php echo $_SESSION['name_user']; ?></strong> a la aplicación de inventario de productos.
           </p>        
         </div>
       </div>  
@@ -36,7 +36,7 @@
             $data = mysqli_fetch_assoc($query);
             ?>
             <h3><?php echo $data['numero']; ?></h3>
-            <p>Datos de Medicamentos</p>
+            <p>Creación de productos</p>
           </div>
           <div class="icon">
             <i class="fa fa-folder"></i>
@@ -66,7 +66,7 @@
             $data = mysqli_fetch_assoc($query);
             ?>
             <h3><?php echo $data['numero']; ?></h3>
-            <p>datos de entrada de Medicamentos</p>
+            <p>datos de entrada de Productos</p>
           </div>
           <div class="icon">
             <i class="fa fa-sign-in"></i>
@@ -95,7 +95,7 @@
             $data = mysqli_fetch_assoc($query);
             ?>
             <h3><?php echo $data['numero']; ?></h3>
-            <p>Stock Medicamentos</p>
+            <p>Stock Productos</p>
           </div>
           <div class="icon">
             <i class="fa fa-file-text-o"></i>
@@ -116,7 +116,7 @@
             $data = mysqli_fetch_assoc($query);
             ?>
             <h3><?php echo $data['numero']; ?></h3>
-            <p>Registros de Medicamentos</p>
+            <p>Registros de Productos</p>
           </div>
           <div class="icon">
             <i class="fa fa-clone"></i>

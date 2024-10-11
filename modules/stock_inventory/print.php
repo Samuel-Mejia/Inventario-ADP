@@ -20,12 +20,12 @@ $count  = mysqli_num_rows($query);
 <html xmlns="http://www.w3.org/1999/xhtml"> 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-        <title>INFORME DE STOCK DE MEDICAMENTOS</title>
+        <title>INFORME DE STOCK DE Productos</title>
         <link rel="stylesheet" type="text/css" href="../../assets/css/laporan.css" />
     </head>
     <body>
         <div id="title">
-           STOCK DE MEDICAMENTOS
+           STOCK DE Productos
         </div>
         
         <hr><br>

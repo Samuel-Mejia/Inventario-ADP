@@ -6,11 +6,11 @@ session_start();
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Panel de administración | Inventario de Medicamentos</title>
+    <title>Panel de administración | Inventario de Productos</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="description" content="Inventario de Medicamentos">
-    <meta name="author" content="Inventario de Medicamentos - Sistemas Web" />
+    <meta name="description" content="Inventario de Productos">
+    <meta name="author" content="Inventario de Productos - Sistemas Web" />
     
     <!-- favicon -->
     <link rel="shortcut icon" href="assets/img/favicon.png" />
@@ -248,6 +248,24 @@ var idioma_español= {
 }
 
     </script>
+<style>
+  .dataTables_length {
+  display: none; /* Oculta el menú de selección de registros */
+}
+.dataTables_filter {
+  display: flex; /* Habilita flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 50px; /* Altura del contenedor */
+    background-color: lightgray;
+    /* Oculta el menú de selección de registros */
+    
+}
 
+
+.dataTables_info {
+  display: none; /* Oculta el menú de selección de registros */
+}
+</style>
   </body>
 </html>

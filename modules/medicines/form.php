@@ -4,11 +4,11 @@ if ($_GET['form']=='add') { ?>
 
   <section class="content-header">
     <h1>
-      <i class="fa fa-edit icon-title"></i> Agregar Medicamentos
+      <i class="fa fa-edit icon-title"></i>Agregar productos
     </h1>
     <ol class="breadcrumb">
       <li><a href="?module=start"><i class="fa fa-home"></i> Inicio </a></li>
-      <li><a href="?module=medicines"> Medicamentos </a></li>
+      <li><a href="?module=medicines"> Productos </a></li>
       <li class="active"> Más </li>
     </ol>
   </section>
@@ -76,19 +76,7 @@ if ($_GET['form']=='add') { ?>
                 </div>
               </div>
 
-              <div class="form-group">
-                <label class="col-sm-2 control-label">Unidad</label>
-                <div class="col-sm-5">
-                  <select class="chosen-select" name="unidad" data-placeholder="-- Seleccionar --" autocomplete="off" required>
-                    <option value=""></option>
-                    <option value="botellas">Botella</option>
-                    <option value="cajas">Cajas</option>
-                    <option value="caja">Caja</option>
-                    <option value="raya">Raya</option>
-                    <option value="tubo">Tubo</option>
-                  </select>
-                </div>
-              </div>
+             
 
             </div><!-- /.box body -->
 
@@ -119,11 +107,11 @@ elseif ($_GET['form']=='edit') {
 
   <section class="content-header">
     <h1>
-      <i class="fa fa-edit icon-title"></i> Modificar Medicamento
+      <i class="fa fa-edit icon-title"></i> Modificar productos
     </h1>
     <ol class="breadcrumb">
       <li><a href="?module=start"><i class="fa fa-home"></i> Inicio </a></li>
-      <li><a href="?module=medicines"> Medicamentos </a></li>
+      <li><a href="?module=medicines"> Productos </a></li>
       <li class="active"> Modificar </li>
     </ol>
   </section>
