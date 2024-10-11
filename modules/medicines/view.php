@@ -1,6 +1,6 @@
 <section class="content-header">
   <h1>
-    <i class="fa fa-folder-o icon-title"></i> Datos de Medicamentos
+    <i class="fa fa-folder-o icon-title"></i> Creación de productos
 
     <a class="btn btn-primary btn-social pull-right" href="?module=form_medicines&form=add" title="agregar" data-toggle="tooltip">
       <i class="fa fa-plus"></i> Agregar
@@ -24,7 +24,7 @@
       echo "<div class='alert alert-success alert-dismissable'>
               <button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button>
               <h4>  <i class='icon fa fa-check-circle'></i> Exito!</h4>
-             Nuevos datos de medicamentos ha sido  almacenado correctamente.
+             Nuevos creación de productos ha sido almacenado correctamente.
             </div>";
     }
 
@@ -32,7 +32,7 @@
       echo "<div class='alert alert-success alert-dismissable'>
               <button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button>
               <h4>  <i class='icon fa fa-check-circle'></i> Exito!</h4>
-             Datos del Medicamento modificados correcamente.
+             Datos del producto modificados correcamente.
             </div>";
     }
 
@@ -40,7 +40,7 @@
       echo "<div class='alert alert-success alert-dismissable'>
               <button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button>
               <h4>  <i class='icon fa fa-check-circle'></i> Exito!</h4>
-            Se eliminaron los datos del Medicamento
+            Se eliminaron los datos del producto
             </div>";
     }
     ?>
@@ -58,14 +58,13 @@
                 <th class="center">Precio de compra</th>
                 <th class="center">Precio de venta</th>
                 <th class="center">Stock</th>
-                <th class="center">Unidad</th>
-                <th></th>
+                <th class="center">Acción</th>
               </tr>
             </thead>
             <tbody>
             <?php  
             $no = 1;
-            $query = mysqli_query($mysqli, "SELECT codigo,nombre,precio_compra,precio_venta,unidad,stock FROM medicamentos ORDER BY codigo DESC")
+            $query = mysqli_query($mysqli, "SELECT codigo,nombre,precio_compra,precio_venta,stock FROM medicamentos ORDER BY codigo DESC")
                                             or die('error: '.mysqli_error($mysqli));
 
             while ($data = mysqli_fetch_assoc($query)) { 
@@ -79,7 +78,7 @@
                       <td width='100' align='right'>$ $precio_compra</td>
                       <td width='100' align='right'>$ $precio_venta</td>
                       <td width='80' align='right'>$data[stock]</td>
-                      <td width='80' class='center'>$data[unidad]</td>
+
                       <td class='center' width='80'>
                         <div>
                           <a data-toggle='tooltip' data-placement='top' title='modificar' style='margin-right:5px' class='btn btn-primary btn-sm' href='?module=form_medicines&form=edit&id=$data[codigo]'>

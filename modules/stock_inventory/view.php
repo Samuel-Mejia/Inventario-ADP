@@ -2,8 +2,7 @@
 
 <section class="content-header">
   <h1>
-    <i class="fa fa-file-text-o icon-title"></i> Stock de Medicamentos
-
+    <i class="fa fa-file-text-o icon-title"></i> Stock de Productos
     <a class="btn btn-primary btn-social pull-right" href="modules/stock_inventory/print.php" target="_blank">
       <i class="fa fa-print"></i> Imprimir
     </a>
@@ -24,7 +23,7 @@
               <tr>
                 <th class="center">No.</th>
                 <th class="center">Codigo</th>
-                <th class="center">Nombre de Medicamento</th>
+                <th class="center">Nombre del producto</th>
                 <th class="center">Precio de compra</th>
                 <th class="center">Precio de venta</th>
                 <th class="center">Stock</th>

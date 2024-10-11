@@ -2,7 +2,7 @@
 
 <section class="content-header">
   <h1>
-    <i class="fa fa-sign-in icon-title"></i> Registro de medicamentos
+    <i class="fa fa-sign-in icon-title"></i> Registro de Productos
 
     <a class="btn btn-primary btn-social pull-right" href="?module=form_medicines_transaction&form=add" title="Agregar" data-toggle="tooltip">
       <i class="fa fa-plus"></i> Entradas / Salidas
@@ -24,7 +24,7 @@
       echo "<div class='alert alert-success alert-dismissable'>
               <button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button>
               <h4>  <i class='icon fa fa-check-circle'></i> Exito!</h4>
-              Datos de medicamentos han sido registrado correctamente.
+              El productos han sido registrado correctamente.
             </div>";
     }
     ?>

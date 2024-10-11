@@ -3,7 +3,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Login | Inventario de Medicamentos</title>
+    <title>Login | Inventario de Productos</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="description" content="Aplikasi Persediaan Obat pada Apotek">
@@ -73,8 +73,11 @@
           </div>
         </form>
 
+        
       </div><!-- /.login-box-body -->
     </div><!-- /.login-box -->
+
+    
 
     <!-- jQuery 2.1.3 -->
     <script src="assets/plugins/jQuery/jQuery-2.1.3.min.js"></script>
