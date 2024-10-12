@@ -140,7 +140,7 @@ session_start();
       </div><!-- /.content-wrapper -->
 
       <footer class="main-footer">
-        <strong>Copyright &copy; <?php echo date('Y');?> - <a href="http://obedalvarado.pw/" target="_blank">Sandie</a>.</strong>
+        <strong>Copyright &copy; <?php echo date('Y');?> - <a>Sandie</a>.</strong>
       </footer>
     </div><!-- ./wrapper -->
 
