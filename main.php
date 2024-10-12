@@ -248,6 +248,24 @@ var idioma_español= {
 }
 
     </script>
+<style>
+  .dataTables_length {
+  display: none; /* Oculta el menú de selección de registros */
+}
+.dataTables_filter {
+  display: flex; /* Habilita flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 50px; /* Altura del contenedor */
+    background-color: lightgray;
+    /* Oculta el menú de selección de registros */
+    
+}
 
+
+.dataTables_info {
+  display: none; /* Oculta el menú de selección de registros */
+}
+</style>
   </body>
 </html>
