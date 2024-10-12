@@ -10,7 +10,7 @@ session_start();
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="description" content="Inventario de Medicamentos">
-    <meta name="author" content="Inventario de Medicamentos - Sistemas Web" />
+    <meta name="author" content="Inventario de productos - Sandie" />
     
     <!-- favicon -->
     <link rel="shortcut icon" href="assets/img/sandie.png" />
@@ -140,7 +140,7 @@ session_start();
       </div><!-- /.content-wrapper -->
 
       <footer class="main-footer">
-        <strong>Copyright &copy; <?php echo date('Y');?> - <a href="http://obedalvarado.pw/" target="_blank">Sistemas Web</a>.</strong>
+        <strong>Copyright &copy; <?php echo date('Y');?> - <a href="http://obedalvarado.pw/" target="_blank">Sandie</a>.</strong>
       </footer>
     </div><!-- ./wrapper -->
 
