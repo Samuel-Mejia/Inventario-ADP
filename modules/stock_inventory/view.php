@@ -27,7 +27,6 @@
                 <th class="center">Precio de compra</th>
                 <th class="center">Precio de venta</th>
                 <th class="center">Stock</th>
-                <th class="center">Unidad</th>
               </tr>
             </thead>
           
@@ -35,7 +34,7 @@
             <?php  
             $no = 1;
           
-            $query = mysqli_query($mysqli, "SELECT codigo,nombre,precio_compra,precio_venta,unidad,stock FROM medicamentos ORDER BY nombre ASC")
+            $query = mysqli_query($mysqli, "SELECT codigo,nombre,precio_compra,precio_venta,stock FROM medicamentos ORDER BY nombre ASC")
                                             or die('Error: '.mysqli_error($mysqli));
 
            
@@ -47,10 +46,9 @@
                       <td width='30' class='center'>$no</td>
                       <td width='80' class='center'>$data[codigo]</td>
                       <td width='180'>$data[nombre]</td>
-                      <td width='100' align='right'>$. $precio_compra</td>
-                      <td width='100' align='right'>$. $precio_venta</td>
+                      <td width='100' align='right'>$$precio_compra</td>
+                      <td width='100' align='right'>$$precio_venta</td>
                       <td width='80' align='right'>$data[stock]</td>
-                      <td width='80' class='center'>$data[unidad]</td>
                     </tr>";
               $no++;
             }

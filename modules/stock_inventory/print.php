@@ -76,7 +76,7 @@ $html = '
                         <th>PRECIO DE COMPRA</th>
                         <th>PRECIO DE VENTA</th>
                         <th>STOCK</th>
-                        <th>UNIDAD</th>
+                        
                     </tr>
                 </thead>
                 <tbody>';
@@ -88,10 +88,9 @@ while ($data = mysqli_fetch_assoc($query)) {
                 <td>$no</td>
                 <td>{$data['codigo']}</td>
                 <td>{$data['nombre']}</td>
-                <td>$. $precio_compra</td>
-                <td>$. $precio_venta</td>
+                <td>$$precio_compra</td>
+                <td>$$precio_venta</td>
                 <td>{$data['stock']}</td>
-                <td>{$data['unidad']}</td>
               </tr>";
     $no++;
 }
